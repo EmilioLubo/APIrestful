@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Productos</title>
+</head>
+<body>
+    <h2>Ingresar producto</h2>
+    <form action="/productos" method="post">
+        <label for="name">Nombre</label>
+        <input type="text" name="nombre">
+        <label for="price">Precio</label>
+        <input type="number" name="precio">
+        <label for="image">Foto</label>
+        <input type="text" name="foto">
+        <input type="reset" value="Borrar campos">
+        <input type="submit" value="Agregar producto">
+    </form>
+</body>
+</html>
